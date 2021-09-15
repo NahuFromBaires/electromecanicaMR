@@ -1,5 +1,7 @@
 
 
-#logo{height: 10vh;
+#logo {
+    height: 10vh;
     width: 10vh;
+    border-radius: 40px;
 }
