@@ -10,4 +10,11 @@
 }
 
 
-#ElFoot{margin-top: 5vh;}
+@media (min-width: 700px)
+{
+    #ElFoot {position: absolute;
+            bottom: 0;
+            width: 100vw;
+   
+    }
+}
