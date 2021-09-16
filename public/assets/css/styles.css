@@ -4,17 +4,20 @@
     border-radius: 45px;
 }
 
-#size_carrousel {
-    height: 60vh;
-    width: 60vh;
-}
+
 
 
 @media (min-width: 700px)
 {
-    #ElFoot {position: absolute;
+    #ElFoot {position: relative;
             bottom: 0;
             width: 100vw;
+            margin-top: 5vh;
    
+    }
+
+    #size_carrousel {
+        height: 60vh;
+        width: 60vh;
     }
 }
