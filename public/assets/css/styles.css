@@ -1,7 +1,10 @@
-
-
 #logo {
     height: 10vh;
     width: 10vh;
     border-radius: 45px;
+}
+
+#size_carrousel {
+    height: 70vh;
+    width: 70vh;
 }
