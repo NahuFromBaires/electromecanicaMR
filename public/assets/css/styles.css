@@ -9,14 +9,12 @@
 
 
 
-@media (min-width: 700px)
+@media (min-width: 700px) /*Web PC*/
 {
         #ElFoot{            position: relative;
                             bottom: 0;
                             width: 100vw; }
 
-        #size_carrousel {   height: 60vh;
-                            width: 60vh;}
 
         #contenedorUno{     display: flex;
                             align-items: center;
