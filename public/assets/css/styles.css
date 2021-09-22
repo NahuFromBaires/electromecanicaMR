@@ -3,9 +3,10 @@
                             width: 10vh;
                             border-radius: 45px;}
 
-#ElFoot{                    margin-top: 5vh}
+#ElFoot {                   margin-top: 5vh}
 
-
+#instagram {                width: 7vh; 
+                            margin-bottom: 3.6vh; margin-left: 3vh;}
 
 
 
@@ -15,12 +16,10 @@
                             bottom: 0;
                             width: 100vw; }
 
-
         #contenedorUno{     display: flex;
                             align-items: center;
                             justify-content: center;}
-}
 
-#instagram {
-        width: 100px;
+        #instagram{         width: 3vh;
+                            margin-left: 1.5vh;}
 }
