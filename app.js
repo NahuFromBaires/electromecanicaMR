@@ -12,7 +12,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, '../electronicaMR/public/assets'));
 app.set('view engine', 'html');     //app.set('view engine', 'ejs');
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/')));
 
 app.engine('html', require('ejs').renderFile); //Agregado extra
 
