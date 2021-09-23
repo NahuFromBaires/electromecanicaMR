@@ -20,6 +20,9 @@
                             align-items: center;
                             justify-content: center;}
 
-        #instagram{         width: 3vh;
+        #instagram{         width: 4vh;
                             margin-left: 1.5vh;}
+
+        #logo{
+                            margin-left: 30vh;}
 }
