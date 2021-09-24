@@ -4,50 +4,60 @@
                         width: 10vh;
                         border-radius: 25vh;}
 
-#ElFoot {               margin-top: 5vh}
+
 
 #instagram {            width: 7vh; 
                         margin-bottom: 3.6vh;}
 
-#flecha_atras {         margin-left: -10vw;
-                        background-color: #330d7a;
-                        border-radius: 50%;
-                        width: 8vw;
-                        height: 8vw;}
-        
-#flecha_adelante {      margin-right: -10vw;
-                        background-color: #330d7a;
-                        border-radius: 50%;
-                        width: 8vw;
-                        height: 8vw;}
+/*                         
+#Tarje {                display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 5vh;
+                        width: 95vw;
+                        height: 95vw;} */
 
-#contenedorUno  {       display: flex;
+
+#Carru  {               display: flex;
                         align-items: center;
                         justify-content: center;
                         width: 95vw;
                         height: 95vw;}
 
-#item            {      margin-bottom: -1vh;}
+            #item           {       margin-bottom: -1vh;}
+
+            #flecha_atras   {       margin-left: -10vw;
+                                    background-color: #330d7a;
+                                    border-radius: 50%;
+                                    width: 8vw;
+                                    height: 8vw;}
+
+            #flecha_adelante {      margin-right: -10vw;
+                                    background-color: #330d7a;
+                                    border-radius: 50%;
+                                    width: 8vw;
+                                    height: 8vw;}
+
+#ElFoot {margin-top: 5vh}
 
 
-@media (min-width: 700px) /*Web PC*/
+/*Zona Web PC*/
+
+@media (min-width: 700px) 
 {
-        #ElFoot{        position: relative;
-                        bottom: 0;
-                        width: 100vw; }
 
-        #contenedorUno{ display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        width: 40vw;
-                        height: 40vw;
-                        }
 
-        #instagram{     width: 4vh;
-                            /* margin-left: 1.5vh; */
-                        }
 
-        #logo{          margin-left: 30vh;}
+    #instagram{width: 4vh;}
+
+    #logo{      margin-left: 30vh;}
+
+    #Carru{     display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40vw;
+                height: 40vw;
+                }
 
         #flecha_atras { margin-left: -60%;
                         background-color: #330d7a;
@@ -62,5 +72,10 @@
                         height: 5%;}
         
          #item   {      margin-bottom: 0vh;}
+
+    #ElFoot{    position: relative;
+                bottom: 0;
+                width: 100vw; }
+
 
 }
