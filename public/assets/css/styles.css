@@ -14,18 +14,18 @@
                         align-items: center;
                         justify-content: center;
                         width: 95vw;
-                        height: 95vw;}
+                        }
 
             #item           {       margin-bottom: -1vh;}
 
-            #flecha_atras   {       margin-left: -10vw;
-                                    background-color: #330d7a;
+            .carousel-control-prev-icon   {       margin-left: -10vw;
+                                    background-color: #59595a;
                                     border-radius: 50%;
                                     width: 8vw;
                                     height: 8vw;}
 
-            #flecha_adelante {      margin-right: -10vw;
-                                    background-color: #330d7a;
+           .carousel-control-next-icon {      margin-right: -10vw;
+                                    background-color: #59595a;
                                     border-radius: 50%;
                                     width: 8vw;
                                     height: 8vw;}
@@ -47,18 +47,18 @@
     #Carru{     display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 40vw;
-                height: 40vw;
+                height: 60vh;
+
                 }
 
-        #flecha_atras { margin-left: -60%;
-                        background-color: #330d7a;
+        .carousel-control-prev-icon { margin-left: -60%;
+                        background-color: #59595a;
                         border-radius: 50%;
                         width: 35%;
                         height: 5%;}
 
-        #flecha_adelante { margin-right: -60%;
-                        background-color: #330d7a;
+        .carousel-control-next-icon { margin-right: -60%;
+                        background-color: #59595a;
                         border-radius: 50%;
                         width: 35%;
                         height: 5%;}
