@@ -9,6 +9,7 @@
 #instagram {            width: 7vh; 
                         margin-bottom: 3.6vh;}
 
+#tarjetas {             margin-top: 15vh;}
 
 #Carru  {               display: flex;
                         align-items: center;
@@ -35,17 +36,22 @@
 
 /*Zona Web PC*/
 
-@media (min-width: 700px) 
-{
-    #instagram{width: 4vh;}
+@media (min-width: 700px) {
+    #navegador{ position: relative;}
 
-    #logo{      margin-left: 30vh;}
+            #instagram{ width: 4vh;}
+
+            #logo{      margin-left: 30vh;
+                        margin-right: 3vh;}
+
+            #elementosNav{  display: none;}
+
+    #tarjetas { margin-top: 2vh;}
 
     #Carru{     display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 70vw;
-                }
+                width: 70vw;}
 
         .carousel-control-prev-icon { margin-left: -60%;
                         background-color: #59595a;
