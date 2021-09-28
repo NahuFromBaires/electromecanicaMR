@@ -6,10 +6,11 @@
 
 
 
-#instagram {            width: 7vh; 
-                        margin-bottom: 3.6vh;}
+#instagram {            width: 6vh; 
+                        margin-bottom: 1vh;border-radius: 25px;}
 
-#tarjetas {             margin-top: 15vh;}
+#tarjetas {             margin-top: 15vh;} /*Contenedor de las tarjetas*/
+        .card{width: 90vw;}
 
 #Carru  {               display: flex;
                         align-items: center;
@@ -31,7 +32,7 @@
                                             width: 8vw;
                                             height: 8vw;}
 
-#ElFoot {margin-top: 5vh}
+#ElFoot {margin-top: 7vh}
 
 
 /*Zona Web PC*/
@@ -39,14 +40,15 @@
 @media (min-width: 700px) {
     #navegador{ position: relative;}
 
-            #instagram{ width: 4vh;}
+            #instagram{ width: 3vh;margin-bottom: 1vh;}
 
-            #logo{      margin-left: 30vh;
+            #logo{      margin-left: 12vw;
                         margin-right: 3vh;}
 
             #elementosNav{  display: none;}
 
-    #tarjetas { margin-top: 2vh;}
+    #tarjetas { margin-top: 2vh;} /*Contenedor*/
+                        .card{width: 22vw;}  
 
     #Carru{     display: flex;
                 align-items: center;
@@ -69,7 +71,7 @@
 
     #ElFoot{    position: relative;
                 bottom: 0;
-                padding-top: 2vh;
+                padding-top: 0vh;
                 margin-top: 2vh;
                 width: 100vw; }
 }
