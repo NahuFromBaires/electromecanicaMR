@@ -9,7 +9,7 @@
 #instagram {            width: 7vh; 
                         margin-bottom: 3.6vh;}
 
-#tarjetas {             margin-top: 25vh;}
+#tarjetas {             margin-top: 15vh;}
 
 #Carru  {               display: flex;
                         align-items: center;
@@ -41,7 +41,10 @@
 
             #instagram{ width: 4vh;}
 
-            #logo{      margin-left: 30vh;}
+            #logo{      margin-left: 30vh;
+                        margin-right: 3vh;}
+
+            #elementosNav{  display: none;}
 
     #tarjetas { margin-top: 2vh;}
 
