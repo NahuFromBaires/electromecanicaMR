@@ -27,19 +27,23 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" id="elementosNav">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#quienesSomos">¿Quiénes somos?</a>
+            <a class="nav-link active" aria-current="page" href="#quienesSomos" id="elementosNav">¿Quiénes somos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#quePresupuesto">Presupuesto</a>
+            <a class="nav-link active" aria-current="page" href="#quePresupuesto" id="elementosNav">Presupuesto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#queServicios">¿Qué servicio te ofrecemos?</a>
+            <a class="nav-link active" aria-current="page" href="#queServicios" id="elementosNav">¿Qué servicio te ofrecemos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#escribinos">Escribinos por whatsapp</a>
+            <a class="nav-link active" aria-current="page" href="#escribinos" id="elementosNav">Escribinos por whatsapp</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#escribinos" id="contactanos">Contactanos</a>
+          </li>
+
 
           
         </ul>
@@ -50,33 +54,44 @@
 
   <!-- Carousel principal -->
 
-  <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="public/assets/images/carousel/carousel_trabajando/t_1.jpg" class="d-block w-100" alt="..." id="t_1">
-      </div>
-      <div class="carousel-item">
-        <img src="public/assets/images/carousel/carousel_trabajando/t_2.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="public/assets/images/carousel/carousel_trabajando/t_3.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="public/assets/images/carousel/carousel_trabajando/t_4.jpg" class="d-block w-100" alt="...">
-      </div>
-      <!-- <div class="carousel-item">
-        <img src="public/assets/images/carousel/carousel_trabajando/t_5.mp4" class="d-block w-100" alt="...">
-      </div> -->
+  <div class="container">   
+    <div class="row justify-content-center">
+      <div class="col-12 mt-3 d-flex justify-content-center text-center col-md-4">
+
+        
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id ='Carousel_Principal'>
+            <div class="carousel-item active">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_1.jpg" class="d-block w-100" alt="..." id="t_1">
+            </div>
+            <div class="carousel-item">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_4.JPG" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+              <video src="public/assets/images/carousel/carousel_trabajando/t_5.mp4" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </div> 
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+</div> 
+  
 
 
   <!--cards -->
@@ -287,9 +302,9 @@
 
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-4">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Climatización y Refrigeración</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Zona de atención</h6>
           <p class="text-white">
-           Servicio técnico de aires acondicionados, heladeras, lavarropas y electricidad.</p>
+          Ciudad Autonoma de Buenos Aires y Zona Oeste GBA</p>
 
         </div>
         <!-- Grid column -->
@@ -299,11 +314,14 @@
           <h6 class="text-uppercase font-weight-bold mt-2 mb-2">Clic y escribinos</h6>
           <h6 class="text-uppercase font-weight-bold mt-2 mb-4">¡Esperamos tu consulta!</h6>
           <a name="escribinos"></a>
-          <p class="mt-0 mb-0">    
+          
+          <p class="mt-0 mb-0" id='wsp'>    
           <a href="https://api.whatsapp.com/send?phone=541155852604&text= Hola%20Juan%20Manuel,%20Como%20estas?%20Quiero%20hacerte%20una%20consulta"><img src="public/assets/images/iconos/whatsapp.png" id="instagram"></a>
           <a class="text-white text-decoration-none mt-1 mb-1"  href="https://api.whatsapp.com/send?phone=541155852604&text= Hola,%20Juan%20Manuel,%20Como%20estas?%20Quiero%20hacerte%20una%20consulta"> Juan Manuel 11-5585-2604</a></p>
-          <p class="mt-0 mb-0">
+          
+          <p class="mt-0 mb-0" id='wsp'>
           <a class="text-white text-decoration-none mt-1 mb-1"  href="https://api.whatsapp.com/send?phone=541138215316&text= Hola%20Facundo,%20Como%20estas?%20Quiero%20hacerte%20una%20consulta"><img src="public/assets/images/iconos/whatsapp.png" id="instagram">Facundo 11-3821-5316</a>
+          
           <p class="text-white mt-2 mb-0">HORARIO DE ATENCION:</p>
           <p class="text-white mt-0">Lunes a Viernes de 06 a 22 hs</p>
         </div>
