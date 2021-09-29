@@ -27,25 +27,72 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" id="elementosNav">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#quienesSomos">¿Quiénes somos?</a>
+            <a class="nav-link active" aria-current="page" href="#quienesSomos" id="elementosNav">¿Quiénes somos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#quePresupuesto">Presupuesto</a>
+            <a class="nav-link active" aria-current="page" href="#quePresupuesto" id="elementosNav">Presupuesto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#queServicios">¿Qué servicio te ofrecemos?</a>
+            <a class="nav-link active" aria-current="page" href="#queServicios" id="elementosNav">¿Qué servicio te ofrecemos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#escribinos">Escribinos por whatsapp</a>
+            <a class="nav-link active" aria-current="page" href="#escribinos" id="elementosNav">Escribinos por whatsapp</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#escribinos" id="contactanos">Contactanos</a>
+          </li>
+
 
           
         </ul>
       </div>
     </div>
   </nav>  
+
+
+  <!-- Carousel principal -->
+
+  <div class="container">   
+    <div class="row justify-content-center">
+      <div class="col-12 mt-3 d-flex justify-content-center text-center col-md-4">
+
+        
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id ='Carousel_Principal'>
+            <div class="carousel-item active">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_1.jpg" class="d-block w-100" alt="..." id="t_1">
+            </div>
+            <div class="carousel-item">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="public/assets/images/carousel/carousel_trabajando/t_4.JPG" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+              <video src="public/assets/images/carousel/carousel_trabajando/t_5.mp4" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </div> 
+    </div>
+</div> 
+  
+
 
   <!--cards -->
  
@@ -163,10 +210,10 @@
     
 
 
-    <!-- Carrousel -->
-    <div class="container" id="Carru">
-      <div class="row">
-        
+    <!-- Carousel -->
+
+      <div class="container" id="Carru">
+      <div class="row">        
         
         <div class="col-12 mt-3 d-flex justify-content-center text-center col-md-6">
           <div id="size_carrousel" class="carousel slide" data-bs-ride="carousel">
@@ -178,34 +225,16 @@
             </div>
             <div class="carousel-inner" >
               <div class="carousel-item active" >
-                <img src="public/assets/images/carrousel/carrousel_banner/b1.jpg" class="d-block w-100" alt="...">
-                <p>Si estás pensando en invertir en bienestar y calidez para vos y los tuyos, contactanos!
-                  Realizamos instalaciones de aires acondicionados frío-calor, mantenimiento y reparación.</p>
+                <img src="public/assets/images/carousel/carousel_banner/b1.jpg" class="d-block w-100" alt="...">                
               </div>
               <div class="carousel-item" >
-                <img src="public/assets/images/carrousel/carrousel_banner/b2.jpg" class="d-block w-100" alt="...">
-                
-                <p>
-                ¿Te paso o te está pasando que tu heladera de golpe no arranca?
-                ¿o que sentís que hace ruido raro o no enfría como antes?
-                Si estas por entrar en pánico por que se te va a echar a perder todo lo que tenes adentro, no te desesperes 😱
-                
-                Nosotros también realizamos mantenimiento y reparación de heladeras
-                </p>
+                <img src="public/assets/images/carousel/carousel_banner/b2.jpg" class="d-block w-100" alt="...">             
               </div>
               <div class="carousel-item">
-                <img src="public/assets/images/carrousel/carrousel_banner/b3.JPG" class="d-block w-100" alt="...">
-                <p>
-                La importancia de realizar el mantenimiento periódico de tu lavarropas, es esencial para su correcto funcionamiento y poder alargar su vida útil 🌱
-                Si estás en ese momento en que tu lavarropas no funciona, la garantía ya la perdiste o no se hacen cargo 😔
-                Te invitamos a que nos contactes, además de ofrecerte un servicio técnico de calidad y confianza, te brindamos garantía por un año.
-                </p>
+                <img src="public/assets/images/carousel/carousel_banner/b3.JPG" class="d-block w-100" alt="...">                
               </div>
               <div class="carousel-item">
-                <img src="public/assets/images/carrousel/carrousel_banner/b4.jpg" class="d-block w-100" alt="...">
-                <p>
-                  ¡Si necesitas hacer arreglos eléctricos en tu domicilio, no dudes en llamarnos!
-                </p>
+                <img src="public/assets/images/carousel/carousel_banner/b4.jpg" class="d-block w-100" alt="...">            
               </div>
 
             </div>
@@ -230,20 +259,16 @@
             </div>
             <div class="carousel-inner" >
               <div class="carousel-item active" >
-                <img src="public/assets/images/carrousel/carrousel_contacto/c1.JPG" class="d-block w-100 mt-2" alt="...">
-                <p>Desliza para ver datos importantes de contacto</p>
+                <img src="public/assets/images/carousel/carousel_contacto/c1.JPG" class="d-block w-100 mt-2" alt="...">               
               </div>
               <div class="carousel-item" >
-                <img src="public/assets/images/carrousel/carrousel_contacto/c2.JPG" class="d-block w-100" alt="...">
-                <p>Contamos con una amplio horario de atención en la semana</p>
+                <img src="public/assets/images/carousel/carousel_contacto/c2.JPG" class="d-block w-100" alt="...">                
               </div>
               <div class="carousel-item">
-                <img src="public/assets/images/carrousel/carrousel_contacto/c3.JPG" class="d-block w-100" alt="...">
-                <p>Tenemos amplios medios de pago</p>
+                <img src="public/assets/images/carousel/carousel_contacto/c3.JPG" class="d-block w-100" alt="...">                
               </div>
               <div class="carousel-item">
-                <img src="public/assets/images/carrousel/carrousel_contacto/c4.JPG" class="d-block w-100" alt="...">
-                <p>¡El presupuesto es sin cargo! Escribinos</p>
+                <img src="public/assets/images/carousel/carousel_contacto/c4.JPG" class="d-block w-100" alt="...">               
               </div>
 
             </div>
@@ -257,18 +282,10 @@
             </button>
           </div>
         </div>
-
-
-      </div>
-      
+      </div>      
     </div>
-
-
-
     
 <!-- <Footer></Footer> -->
-
-
 
         <footer id="ElFoot" class="footer text-center text-white" style="background-color: #22639d">
         <!-- Grid container -->
@@ -285,9 +302,9 @@
 
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-4">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Climatización y Refrigeración</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Zona de atención</h6>
           <p class="text-white">
-           Servicio técnico de aires acondicionados, heladeras, lavarropas y electricidad.</p>
+          Ciudad Autonoma de Buenos Aires y Zona Oeste GBA</p>
 
         </div>
         <!-- Grid column -->
@@ -297,11 +314,14 @@
           <h6 class="text-uppercase font-weight-bold mt-2 mb-2">Clic y escribinos</h6>
           <h6 class="text-uppercase font-weight-bold mt-2 mb-4">¡Esperamos tu consulta!</h6>
           <a name="escribinos"></a>
-          <p class="mt-0 mb-0">    
+          
+          <p class="mt-0 mb-0" id='wsp'>    
           <a href="https://api.whatsapp.com/send?phone=541155852604&text= Hola%20Juan%20Manuel,%20Como%20estas?%20Quiero%20hacerte%20una%20consulta"><img src="public/assets/images/iconos/whatsapp.png" id="instagram"></a>
           <a class="text-white text-decoration-none mt-1 mb-1"  href="https://api.whatsapp.com/send?phone=541155852604&text= Hola,%20Juan%20Manuel,%20Como%20estas?%20Quiero%20hacerte%20una%20consulta"> Juan Manuel 11-5585-2604</a></p>
-          <p class="mt-0 mb-0">
+          
+          <p class="mt-0 mb-0" id='wsp'>
           <a class="text-white text-decoration-none mt-1 mb-1"  href="https://api.whatsapp.com/send?phone=541138215316&text= Hola%20Facundo,%20Como%20estas?%20Quiero%20hacerte%20una%20consulta"><img src="public/assets/images/iconos/whatsapp.png" id="instagram">Facundo 11-3821-5316</a>
+          
           <p class="text-white mt-2 mb-0">HORARIO DE ATENCION:</p>
           <p class="text-white mt-0">Lunes a Viernes de 06 a 22 hs</p>
         </div>
@@ -329,13 +349,8 @@
         <!-- Grid container -->
 
      
-        <div
-        class="text-center p-3 mt-2"
-        style="background-color: rgba(0, 0, 0, 0.2)"
-        >
-        
-        <a class="text-white text-decoration-none text-reset" href="./index.html"> MR Climatizaciones y Electromecánica</a
-        >
+        <div class="text-center p-3 mt-2" style="background-color: rgba(0, 0, 0, 0.2)">        
+          <a class="text-white text-decoration-none text-reset" href="./index.html"> MR Climatizaciones y Electromecánica</a>
         </div>
        
         </footer>
