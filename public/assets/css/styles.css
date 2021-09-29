@@ -7,7 +7,7 @@
 
 
 #instagram {            width: 6vh; 
-                        margin-bottom: 1vh;border-radius: 25px;}
+                        margin-bottom: 1vh;border-radius: 25px;margin-right: 1vh;}
 
 #tarjetas {             margin-top: 15vh;} /*Contenedor de las tarjetas*/
         .card{width: 90vw;}
