@@ -50,6 +50,19 @@
     #tarjetas { margin-top: 2vh;} /*Contenedor*/
                         .card{width: 22vw;}  
 
+
+    /* #carrusel_principal {
+            
+    } */
+
+    .carousel-item { height: 65vh; }
+        
+        #t_1 { height: 100vh;}
+       
+
+
+                        
+
     #Carru{     display: flex;
                 align-items: center;
                 justify-content: center;
